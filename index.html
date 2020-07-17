@@ -229,6 +229,299 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Azure-Guo/azure-guo.github.io/azure-guo.github.io/2020/07/17/Java/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/azure-guo.github.io/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/azure-guo.github.io/2020/07/17/Java/" itemprop="url">Java</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-07-17T23:15:29+08:00">
+                2020-07-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="JAVA学习（未完结）"><a href="#JAVA学习（未完结）" class="headerlink" title="JAVA学习（未完结）"></a>JAVA学习（未完结）</h1><h3 id="JAVA-开端"><a href="#JAVA-开端" class="headerlink" title="JAVA 开端"></a>JAVA 开端</h3><blockquote>
+<p>在C/C++统治了半个实际后，Oka 无指针的语言诞生，此计划的目的是开发一种能够在各种消费性电子产品（如机顶盒、冰箱、收音机等）上运行的程序架构。这个计划的产品就是Java语言的前身。</p>
+<blockquote>
+<p>1995年5月23日，Oak语言改名为Java，并且在SunWorld大会上正式发布Java 1.0版本。Java语言第一次提出了“Write Once，Run Anywhere”的口号。</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><p><strong>因为JAVA中有 JDK JRE JVM</strong> </p>
+</li>
+<li><p><strong>JDk</strong></p>
+<blockquote>
+<p><strong>Java Development Kit</strong> 是Java的标准开发工具包（普通用户只需要安装 JRE来运行 Java 程序。而程序开发者必须安装JDK来编译、调试程序）。它提供了编译、运行Java程序所需的各种工具和资源，包括Java编译器、Java运行环境JRE，以及常用的Java基础类库等，是整个<strong>JAVA的核心</strong>。</p>
+</blockquote>
+<blockquote>
+<p>JDK一般有三种版本：</p>
+<p><strong>SE(J2SE),standard edition</strong>,标准版，是我们通常用的一个版本 <strong>EE(J2EE),enterpsise edtion</strong>,企业版，使用这种JDK开发J2EE应用程序， <strong>ME(J2ME),micro edtion</strong>,主要用于移动设备、嵌入式设备上的java应用程序 （相对来说现在使用的很少了）</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li></li>
+<li><p><strong>JRE</strong></p>
+<blockquote>
+<p><strong>Java runtime environment</strong> 是运行基于Java语言编写的程序所不可缺少的运行环境，用于解释执行Java的字节码文件。</p>
+</blockquote>
+</li>
+<li><p><strong>JVM</strong></p>
+<blockquote>
+<p>Java Virtual Machine 是Java的虚拟机，是JRE的一部分。它是整个java实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行java字节码文件的虚拟计算机。</p>
+</blockquote>
+<p>所有平台的上的JVM向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。</p>
+</li>
+<li><p><img src="https://pics0.baidu.com/feed/a044ad345982b2b70a1da1f84503bfe977099b45.jpeg?token=1e6ce50be8b64bee26ee7fa3acde9472" alt=""></p>
+</li>
+</ul>
+<p><strong><em>正是因为这样JAVA具有跨平台的优势</em></strong></p>
+<h3 id="JAVA-是具有编译型和解释型的语言"><a href="#JAVA-是具有编译型和解释型的语言" class="headerlink" title="JAVA 是具有编译型和解释型的语言"></a>JAVA 是具有编译型和解释型的语言</h3><ul>
+<li><strong>编译型</strong>就像是给一本书全部翻译。</li>
+<li><strong>解释型</strong>就像是有一个翻译，实时在线给你解释。</li>
+</ul>
+<p>先把java源代码生成.java 文件是编译，把.java生成exe是解释。</p>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="分为8大数据类型"><a href="#分为8大数据类型" class="headerlink" title="分为8大数据类型"></a>分为8大数据类型</h2><ul>
+<li><p>整数：byte short int long </p>
+</li>
+<li><p>浮点数:  flout double </p>
+</li>
+<li><p>字符: char </p>
+</li>
+<li><p>布尔：boolean</p>
+</li>
+</ul>
+<p><em>整数类只会保留整数，小数部分会省略</em></p>
+<p>数据类型的转化：</p>
+<ul>
+<li><p>从小到大的转化是自动的  如 short &gt; int </p>
+</li>
+<li><p>如果从int &gt; short 需要强制转换 </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">short</span> a=<span class="number">20</span>;</span><br><span class="line"><span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">short</span> a = b;<span class="comment">//报错</span></span><br><span class="line"><span class="keyword">short</span> a= (<span class="keyword">short</span>)b;<span class="comment">//正确</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>最好避免浮点型大小比较。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span> f = <span class="number">0.1f</span>;</span><br><span class="line"><span class="keyword">double</span> f1 = <span class="number">1.0</span>/<span class="number">10</span>;</span><br><span class="line">System.out.println(f==f1);<span class="comment">//false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">float</span> f =<span class="number">21212131313213212f</span></span><br><span class="line"><span class="keyword">double</span> f1=f+<span class="number">1</span>;</span><br><span class="line">System.out.println(f==f1);<span class="comment">//true</span></span><br></pre></td></tr></table></figure>
+
+<p><em>浮点数： 有限 / 离散 / 舍入误差 / 大约 / 接近但不等于</em></p>
+<p>如过银行存款比较。</p>
+<p>可以用BigDecimal(数学工具类)</p>
+<h2 id="数据类型拓展"><a href="#数据类型拓展" class="headerlink" title="数据类型拓展"></a>数据类型拓展</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//二进制    八进制   十进制   十六进制</span></span><br><span class="line">  <span class="number">0</span>b         <span class="number">0</span>                <span class="number">0</span>x</span><br></pre></td></tr></table></figure>
+
+<p><em>字符拓展</em></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c1=<span class="string">'a'</span>;</span><br><span class="line"><span class="keyword">char</span> c2=<span class="string">'中'</span>;</span><br><span class="line">System.out.println(c1);</span><br><span class="line">System.out.println(c2);</span><br><span class="line"><span class="comment">//可以输出数字</span></span><br><span class="line">System.out.println((<span class="keyword">int</span>)c1);<span class="comment">//强制转化</span></span><br><span class="line">System.out.println((<span class="keyword">int</span>)c2);<span class="comment">//强制转化</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">所有字符的本质还是数字</span></span><br><span class="line"><span class="comment">编码 Unicode 2个字节  可表示65536字符</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">char</span> c3 = <span class="string">'\u0061'</span>;<span class="comment">//转义</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//转义字符</span></span><br><span class="line"><span class="comment">// \t   制表符</span></span><br><span class="line"><span class="comment">// \n   换行</span></span><br><span class="line">System.out.println(<span class="string">"hello/tworld"</span>);<span class="comment">//hello    world</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h1><h3 id="变量："><a href="#变量：" class="headerlink" title="变量："></a>变量：</h3><p>变量即可变化的量。</p>
+<p>JAVA是一种<strong>强类型</strong>语言，每个变量必须声明其类型。</p>
+<p><strong>JAVA变量是程序中最基本的存储单位</strong>，其要素包括变量名，变量类型和作用域。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 变量类型 变量名 = 值;</span></span><br><span class="line">	<span class="keyword">int</span>    number = <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<p><em>每个变量都有类型，可以是基本类型，可以是引用类型</em></p>
+<hr>
+<h2 id="变量作用域："><a href="#变量作用域：" class="headerlink" title="变量作用域："></a>变量作用域：</h2><ul>
+<li><p>类变量</p>
+</li>
+<li><p>实例变量</p>
+</li>
+<li><p>局部变量</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span>&#123;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> a = <span class="number">0</span>;<span class="comment">//类变量 从属于类</span></span><br><span class="line">    String str = <span class="string">"hello"</span>;<span class="comment">//实例变量  在此类中可以使用 从属于此对象 </span></span><br><span class="line">    <span class="comment">//实例变量如果不初始化择变为默认值0/null</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">method</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i =<span class="number">0</span>;<span class="comment">//局部变量  只能在此方法引用</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
+</ul>
+<hr>
+<h2 id="常量："><a href="#常量：" class="headerlink" title="常量："></a>常量：</h2><p>初始化后就不能改变的值。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//final 常量名= 值；</span></span><br><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.14</span>；</span><br></pre></td></tr></table></figure>
+
+<p>常量名一般大写。</p>
+<h1 id="基本运算符"><a href="#基本运算符" class="headerlink" title="基本运算符"></a>基本运算符</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//+、-、*、/、%</span></span><br><span class="line"><span class="comment">//加 减 乘 除 取余</span></span><br><span class="line"><span class="comment">//&lt; &gt; &lt;= &gt;= !=</span></span><br><span class="line"><span class="comment">//小于 大于 小于等于 大于等于 不等于  返回boolean 值</span></span><br><span class="line"><span class="keyword">int</span> a =<span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> b =<span class="number">2</span>;</span><br><span class="line"><span class="keyword">int</span> c =a+b;<span class="comment">//3</span></span><br><span class="line"><span class="keyword">int</span> d =a-b;<span class="comment">//-1</span></span><br><span class="line"><span class="keyword">int</span> e =a*b;<span class="comment">//2</span></span><br><span class="line"><span class="keyword">int</span> f =a/b;<span class="comment">//0(0.5 因为int 保留整数则为0)</span></span><br><span class="line"><span class="keyword">int</span> g = a%b;<span class="comment">//1</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="常见用法"><a href="#常见用法" class="headerlink" title="常见用法"></a>常见用法</h2><p>自增、自减运算符。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a =<span class="number">0</span>;</span><br><span class="line">a++;<span class="comment">//a=a+1;</span></span><br><span class="line">a--;<span class="comment">//a=a-1;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong><em>a++,++a有不同</em></strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a =<span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> b =<span class="number">1</span>;</span><br><span class="line">b=a++;<span class="comment">//b=0;</span></span><br><span class="line">System.out,println(a);<span class="comment">//a=1;</span></span><br><span class="line"><span class="comment">//b=a++;可以理解为先把a的值赋给b，然后a再自增;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> c =<span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> d =<span class="number">1</span>;</span><br><span class="line">d=++c;<span class="comment">//d=1;</span></span><br><span class="line"><span class="comment">//b=++c 可以理解为c先自增然后再赋值给b;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//a++  ++a ,可以统一概括为，a++是再第二次引用a时，a的值增加，++a则是及时增加；</span></span><br><span class="line"></span><br><span class="line">自减同理</span><br></pre></td></tr></table></figure>
+
+<h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//&amp;&amp; || !</span></span><br><span class="line"> 与  或  非 </span><br><span class="line"><span class="keyword">boolean</span> a = <span class="keyword">true</span>;</span><br><span class="line"><span class="keyword">boolean</span> b= <span class="keyword">false</span>;</span><br><span class="line">System.out.println(a&amp;&amp;b);<span class="comment">//false</span></span><br><span class="line">System.out.println(a||b);<span class="comment">//true</span></span><br><span class="line">System.out.println(!(a&amp;&amp;b);<span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//&amp;&amp; 短路运算，即（a&amp;&amp;b） 若a为false则b不执行运算</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">A=00111100</span></span><br><span class="line"><span class="comment">B=00001101</span></span><br><span class="line"><span class="comment">A&amp;B=00001100</span></span><br><span class="line"><span class="comment">A|B=00111101</span></span><br><span class="line"><span class="comment">A^B=00110001(相同为0不同为1)</span></span><br><span class="line"><span class="comment">~B =11110010</span></span><br></pre></td></tr></table></figure>
+
+<p>2*8怎么运算最快  </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;&lt;</span><br><span class="line">&gt;&gt; </span><br><span class="line">System.out.println(<span class="number">2</span>&lt;&lt;<span class="number">3</span>);<span class="comment">//16</span></span><br><span class="line"><span class="comment">//&lt;&lt;代表*2  &gt;&gt;代表/2</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>位运算效率极高</strong></p>
+<h1 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h1><blockquote>
+<p>偷懒运算符2333</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// += -= *= /=</span></span><br><span class="line"><span class="comment">//例如</span></span><br><span class="line"><span class="keyword">int</span> a = <span class="number">0</span>;</span><br><span class="line">a+=<span class="number">10</span>;<span class="comment">//a=a+10</span></span><br><span class="line"><span class="comment">//其余同理</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>选择运算符</strong>（常见）</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// x?y:z;</span></span><br><span class="line"><span class="comment">//如果x为真 结果为y 否则为z</span></span><br><span class="line">        <span class="keyword">int</span> score = <span class="number">50</span>;</span><br><span class="line">        String type= score &lt;<span class="number">60</span>?<span class="string">"不及格"</span>:<span class="string">"及格"</span>;<span class="comment">//必须掌握</span></span><br><span class="line">        System.out.println(type);<span class="comment">//不及格</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Java-Doc"><a href="#Java-Doc" class="headerlink" title="Java Doc"></a>Java Doc</h1><p>*<em>Javadoc用于描述类或者方法的作用。Javadoc可以写在类上面和方法上面。 *</em></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> *@author Axin</span></span><br><span class="line"><span class="comment"> * @version 1.0</span></span><br><span class="line"><span class="comment"> * @since 1.8</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Doc</span> </span>&#123;</span><br><span class="line">    String name;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@author</span> Axin</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> name</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     * <span class="doctag">@throws</span> Exception</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span>  String <span class="title">test</span><span class="params">(String name)</span> <span class="keyword">throws</span> Exception</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在IDEA中可按如下操作生成JavaDoc</p>
+<p><img src="C:%5CUsers%5C53424%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591106429719.png" alt="1591106429719"></p>
+<p>进入相关路径发现有关代码的说明</p>
+<p><img src="C:%5CUsers%5C53424%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591106500856.png" alt="1591106500856"></p>
+<p><strong>JavaDoc是一个很好的习惯</strong></p>
+<h1 id="Scanner"><a href="#Scanner" class="headerlink" title="Scanner"></a>Scanner</h1><p>是计算机与人类交流的一种方式。目前最简单的方式。</p>
+<p>例如</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo01</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建扫描器对象</span></span><br><span class="line">       Scanner scanner= <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">"使用next方式接收:"</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入</span></span><br><span class="line">        <span class="keyword">if</span>(scanner.hasNext())&#123;</span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">"输入的内容为："</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//凡是io接口用完要关掉，不然会一直浪费资源</span></span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>目前知道的是Scanner 是人机交互方式，代码具体实现在面向对象再讲解。</p>
+<p><strong>我们发现有一个hasNext()是为了判断输入内容的方法</strong></p>
+<p>但是如果输入了一行例如</p>
+<p>2354  251</p>
+<p>他就只会打印2354 。</p>
+<p>这说明，hasNext()会省略空格后面的内容。</p>
+<p>所以，下例</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo02</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Scanner scanner=<span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">"使用nextline接收："</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(scanner.hasNextLine())&#123;</span><br><span class="line">            String str = scanner.nextLine();</span><br><span class="line">            System.out.println(str);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>就可以打印一行内容，从英文名字可以看出。</p>
+<p><strong><em>如果好奇为什么可以按着ctrl点Scanner查看源码</em></strong></p>
+<p><img src="C:%5CUsers%5C53424%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591107007813.png" alt="1591107007813"></p>
+<p>接下来我们来看一个例子，增加对Scanner的看法</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo04</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Scanner scanner =<span class="keyword">new</span> Scanner(System.in);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">//从键盘接收数据</span></span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">float</span>  f = <span class="number">0.0f</span>;</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">"请输入整数"</span>);</span><br><span class="line">        <span class="keyword">if</span>(scanner.hasNextInt())&#123;</span><br><span class="line">           i = scanner.nextInt();</span><br><span class="line">            System.out.println(<span class="string">"整数为:"</span>+i);</span><br><span class="line"></span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            System.out.println(<span class="string">"输入的不是整数"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"请输入小数"</span>);</span><br><span class="line">        <span class="keyword">if</span>(scanner.hasNextFloat())&#123;</span><br><span class="line">            f = scanner.nextFloat();</span><br><span class="line">            System.out.println(<span class="string">"小数为:"</span>+f);</span><br><span class="line"></span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            System.out.println(<span class="string">"输入的不是小数"</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="java-结构"><a href="#java-结构" class="headerlink" title="java 结构"></a>java 结构</h1><h2 id="顺序、条件、循环"><a href="#顺序、条件、循环" class="headerlink" title="顺序、条件、循环"></a>顺序、条件、循环</h2><h3 id="顺序"><a href="#顺序" class="headerlink" title="顺序"></a>顺序</h3><p>顾名思义，就是按照顺序执行。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"hello1"</span>);</span><br><span class="line">        System.out.println(<span class="string">"hello2"</span>);</span><br><span class="line">        System.out.println(<span class="string">"hello3"</span>);</span><br><span class="line">        System.out.println(<span class="string">"hello4"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>代码会依次打印 1 2 3 4；</p>
+<p>这便是顺序，简单的很。</p>
+<h3 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h3><p>说到条件，就会有两个新语法。if  switch</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//if(布尔值)&#123;&#125;</span></span><br><span class="line"><span class="comment">//如果布尔值为真则会执行大括号中的内容</span></span><br><span class="line"><span class="keyword">if</span>(<span class="number">2</span>&gt;<span class="number">0</span>)&#123;</span><br><span class="line">    System.out.println(<span class="string">"right"</span>);/right</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">switch(expression)&#123;</span></span><br><span class="line"><span class="comment">case value:</span></span><br><span class="line"><span class="comment">语句;</span></span><br><span class="line"><span class="comment">break;//可选</span></span><br><span class="line"><span class="comment">case value:</span></span><br><span class="line"><span class="comment">语句;</span></span><br><span class="line"><span class="comment">break;//可选</span></span><br><span class="line"><span class="comment">default://可选</span></span><br><span class="line"><span class="comment">语句;</span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br><span class="line"><span class="comment">//expression 可为byte short int 或者char 从JaveSE 7 开始支持String类型</span></span><br><span class="line"><span class="comment">//如果不加break;则会直接运行之后语句，叫做case穿透现象</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h3><p>循环有 while   do while  <strong>for</strong>(常用)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(判断布尔值)&#123;</span><br><span class="line">    <span class="comment">//执行语句</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">    <span class="comment">//执行语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(判断布尔值)</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"> <span class="comment">//while 和do while 差距在与  while 先判断条件再执行语句,do while 先执行语句再判断条件</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//例如</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">    <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//int i = 0 只执行一次，然后判断后面的语句，若真，则执行括号内容，最好执行i++</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//增强for语句</span></span><br><span class="line"><span class="comment">//主要用于遍历数组和集合</span></span><br><span class="line"><span class="keyword">for</span>(声明语句:表达式)&#123;</span><br><span class="line">    <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//例如</span></span><br><span class="line"><span class="keyword">int</span>[] numbers =&#123;<span class="number">10</span>,<span class="number">20</span>,<span class="number">30</span>,<span class="number">40</span>,<span class="number">50</span>&#125;;<span class="comment">//定义一个数组</span></span><br><span class="line"><span class="comment">//遍历数组的元素</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> x:numbers)&#123;</span><br><span class="line">   System.out.println(x);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//解释： 把numbers数组每一项的值赋给 X</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//和下面代码意思相同</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;<span class="number">5</span>;i++)&#123;</span><br><span class="line">    System.out.println(numbers[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://github.com/Azure-Guo/azure-guo.github.io/azure-guo.github.io/2020/07/17/MySQL/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2195,7 +2488,7 @@
               
                 <a href="/azure-guo.github.io/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
